@@ -1,3 +1,4 @@
+https://material.angularjs.org/latest/getting-started
 # Angular Material-Start (Typescript)
 
 This branch contains the final/complete version (i.e. `step-10-finished`) of the
@@ -82,7 +83,7 @@ AMD, and globals).
 
 SystemJS is also used to transpile the Typescript into plain Javascript in the browser rather than
 having to download and configure a separate compiler.
- 
+
 ###### Getting Started
 
 Clone this repository and execute the following commands in a terminal:
@@ -114,14 +115,14 @@ Below are a few important notes about this project.
 
 * Additionally, this version of the project shows how to use the Dialog component to show an alert
   once a sharing icon is clicked. The ES6 version simply logs a message to the console.
-  
+
 * The UsersList component inlines the HTML template to show an alternative to the `templateUrl` for
   simple components.
-  
+
 * The types provided by the `typings` tool (part of npm's `postinstall` script) are outdated and use
   references to interfaces beginning with 'I' which is not in-line with Angular 2 standards. These
   typings are provided by the community and not Angular Material.
-  
+
   Additionally, as of this writing, the typings were based off of 1.1.0-RC5 instead of the final
   1.1.0 which was recently released so there may be some discrepancies in the type generations.
 
