@@ -7,6 +7,7 @@ import 'angular-aria';
 import 'angular-material';
 import 'angular-messages';
 import 'angular-sanitize';
+import 'ui-router';
 
 import {AppComponent} from "../components/start-app/start-app.component.ts";
 import {UsersListComponent} from "../users/components/users-list/users-list.component.ts";
@@ -18,7 +19,7 @@ module MaterialStart {
   "use strict";
 
   // Register our module and it's dependencies
-  angular.module('MaterialStart', ['ngMaterial', 'ngSanitize', Users.name])
+  angular.module('MaterialStart', ['ngMaterial', 'ngSanitize', Users.name, 'ui.router'])
     .config(function ($mdIconProvider:angular.material.IIconProvider, $mdThemingProvider:angular.material.IThemingProvider) {
       // Register the user `avatar` icons
       $mdIconProvider
