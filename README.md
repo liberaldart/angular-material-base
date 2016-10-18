@@ -1,4 +1,9 @@
 Step 1: Added ui-router as the library
+As of now, there is no Angular1.x UI router available for Version 1.5.8 version of AngularJS
+The existing version is depricated because the angular team is trying to bring in some version that they are already implementing 
+for Angular 2.
+I also remember that the Angular 2's routing capabilities are not added to "Angular Cli", the so called scaffolding tool that
+can be used to add components and stuff into your Angular 2 application on the go
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Lines below this line are the lines from the base repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
